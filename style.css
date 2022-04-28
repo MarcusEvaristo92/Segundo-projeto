@@ -1,0 +1,196 @@
+﻿/*#3B66D9 = azul escuro
+  #8CD8FA = azul claro
+  #FC44F7 = rosa
+  #8F23DB = roxo
+  #664EF0
+*/
+:root {
+    --cor1: #3863a9;
+    --cor2: #8CD8FA;
+    --cor3: #FC44F7;
+    --cor4: #8F23DB;
+    --cor5: #664EF0;
+
+    --fonte-padrao: Arial, verdana, sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+header {
+    background-color: var(--cor1);
+}
+header img {
+       
+    display: block;
+    margin:auto;
+    padding: 10px;
+}
+
+header nav a{
+    color:white;
+    padding: 5px;
+    text-decoration: none;
+    margin: 5px;
+  
+}
+header nav{
+    padding: 10px;
+}
+header a:hover {
+    background-color: var(--cor4);
+    border-radius: 5px;
+    transition: 0.3s;
+    padding: 10px;
+}
+main img{
+    width: 150px;
+    height: 200px;
+    border: 2px solid #797171;
+    border-radius: 5px;
+    display: block;
+    margin: 20px
+}
+
+body {
+    height:100vh;
+    background: black url('imagens/fundo1.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+ main
+{
+    background-color: white;
+    border-radius: 5px; 
+    text-align: center;
+    margin: 0px 50px ;   
+}
+main nav a {
+    display: inline-block;
+    
+    border-radius: 10px;
+    width: 250px;
+    height: 160px;
+    padding-top: 100px;
+    margin: 20px;
+    text-decoration:none;
+    
+}
+main nav a p{
+    text-align:center;
+    padding-top: 20px;
+    font-weight:bolder;
+   
+    
+}
+    main nav a b {
+        margin:5px;
+        padding-top:10px;
+        text-align:justify;
+    }
+    main nav a#icone1{
+background: url('imagens/icone1.png') center top no-repeat;
+   
+}
+main nav a:hover#icone1 {
+    background: url('imagens/icone1.png') center top no-repeat;
+    background-color: var(--cor2);
+    color: white;
+    transition: 0.4s;
+}
+
+
+main nav a#icone2{
+    background: url('imagens/icone2.png') center top no-repeat;
+}
+
+main nav a:hover#icone2 {
+    background: url('imagens/icone2.png') center top no-repeat;
+    background-color: var(--cor2);
+    color: white;
+    transition: 0.4s;
+}
+h2{
+    
+    padding: 20px;
+  
+}
+main p{   
+    text-align:justify;
+    padding:10px;
+    margin: 5px;
+}
+
+aside ul {
+    list-style-type:none;
+    columns: 2;
+    padding: 10px;
+    text-align: justify;
+    background-color: white;
+    border-radius: 10px;
+}
+aside img {
+    display: block;
+    width: 400px;
+    height: 400px;   
+    margin: auto;
+    border: none;
+}
+aside{
+   
+    padding:0px;
+    margin:0px;
+}
+aside li{
+    padding: 5px;
+}
+aside li a {
+    background: rgb(121,117,117, 0.30) url('imagens/icone3.png') center left no-repeat;
+    text-decoration: none;
+    display: inline-block;
+    width:  100%;
+    height: 30px;
+    text-align:end;
+}
+    aside li a:hover {
+        background:url('imagens/icone3.png') center left no-repeat;
+        background-color: var(--cor4);
+        transition: 0.8s;
+        color: white;
+    }
+
+div.video {
+    background-color: var(--cor0);
+    margin: 0px -20px 20px -20px;
+    padding: 20px;
+    padding-bottom: 58.5%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+footer{
+    background-color:var(--cor1);
+    color:white;
+    padding:10px;
+
+}
+footer a{
+    text-decoration:none;
+    color:white;
+}
+footer a:hover{
+    background-color:var(--cor4);
+    border-radius:5px;
+    text-decoration:underline;
+
+}
+a.externo::after {
+    content: '\00A0\1F517'
+}
